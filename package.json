@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    
-    "docs:build": "vuepress build docs"
+    "build": "vue-cli-service build"
   },
   "author": "zhengzheng",
   "license": "ISC",
