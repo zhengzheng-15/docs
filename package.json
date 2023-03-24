@@ -1,0 +1,15 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "vuepress",
+  "main": "index.js",
+  "scripts": {
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "author": "zhengzheng",
+  "license": "ISC",
+  "dependencies": {
+    "vue-template-compiler": "^2.7.14"
+  }
+}
